@@ -4,6 +4,10 @@ The repository contains the following tasks : Construction of the corpus, Named 
 
 ![image](https://user-images.githubusercontent.com/77699359/205594664-66976e6e-9034-445a-95c0-d969bb658b81.png)
 
+**Overall design of the solution :**
+
+![image](https://user-images.githubusercontent.com/77699359/205593799-b33e8936-6da4-481a-a02e-5e48bd7b52cb.png)
+
 In general, it is essential to build beforehand an idea on the usefulness and the types of information that we need to access at the level of our knowledge graph, given that the field of cybersecurity is wide. This will make it easier for us to choose the documents on which we will base the creation of the graph. 
 
 First of all, we will have to build the corpus: we can either base ourselves on a single collection of reports bearing the same type of information, or expand the field of knowledge by adding other types of information, from various sources, deemed to be useful during the analysis, while ensuring the homogeneity of the corpus built. Before starting the step of extracting the entities, it will have to carry out a preprocessing on the documents contained in the corpus in order to prepare the data or the data set that will be suitable for the application of the REN approach. 
@@ -13,10 +17,6 @@ By trying different models and different types of architecture, we will have a b
 Once we succeed in having a model that performs well in recognizing named entities and another model that performs well in extracting relationships. We can extract the triples from a collection of reports: entities and relations that contextualize them, and then build our knowledge graph. 
 
 Since the objective is not only based on the construction of the graph but rather on its usefulness rather on its usefulness and efficiency in countering a cyber-attack. An analysis step is added towards the end, which consists of analyzing and querying the knowledge graph constructed. The figure above illustrates the approach followed.
-
-**Overall design of the solution :**
-
-![image](https://user-images.githubusercontent.com/77699359/205593799-b33e8936-6da4-481a-a02e-5e48bd7b52cb.png)
 
 **Detailed design of the solution :**
 
